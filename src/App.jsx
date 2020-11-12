@@ -1,11 +1,12 @@
 import React from "react"
+import ImageCard from "./components/ImageCard"
 
 const App = () => {
     return (
-        <>
-            <h1>Hola john</h1>
-            <h2>This shit is working!!!</h2>
-        </>
+        <article className="container">
+            <ImageCard />
+            <button>RANDOM COMIC</button>
+        </article>
     )
 }
 
