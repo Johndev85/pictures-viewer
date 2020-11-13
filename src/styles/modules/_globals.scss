@@ -6,10 +6,18 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 16px;
     font-family: Ubuntu, sans-serif;
+    background: rgb(116, 182, 232);
+    background: linear-gradient(
+        90deg,
+        rgba(116, 182, 232, 1) 0%,
+        rgba(91, 138, 167, 1) 0%,
+        rgba(183, 227, 230, 1) 82%,
+        rgba(217, 249, 255, 0.9990195907464549) 100%
+    );
 }

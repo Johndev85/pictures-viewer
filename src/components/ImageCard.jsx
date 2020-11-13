@@ -1,5 +1,6 @@
 import React from "react"
 import useImages from "../hooks/useImages"
+import Rating from "react-rating"
 
 const ImageCard = () => {
     const [items, isLoaded, error] = useImages()
@@ -17,12 +18,16 @@ const ImageCard = () => {
         return (
             <section className="card">
                 <div className="card__id">
-                    <span>{items.id}</span>
+                    <span># {items.id}</span>
                 </div>
                 <img src={items.download_url} alt="items" />
-                <h1>{items.author}</h1>
+                <h1> Author: {items.author}</h1>
                 <div className="card__rating">
-                    <span>calificadores</span>
+                    <Rating
+                        start={0}
+                        stop={5}
+                        onChange={(rate) => alert(`Rating: ${rate}`)}
+                    />
                 </div>
             </section>
         )
