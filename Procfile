@@ -1,1 +1,1 @@
-web: babel ./src/index.js
+web: webpack --config webpack.config.js
