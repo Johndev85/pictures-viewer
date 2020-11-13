@@ -20,12 +20,28 @@ const ImageCard = () => {
                 <div className="card__id">
                     <span># {items.id}</span>
                 </div>
-                <img src={items.download_url} alt="items" />
+                <img
+                    src={items.download_url}
+                    alt="items"
+                    className="card__image"
+                />
                 <h1> Author: {items.author}</h1>
                 <div className="card__rating">
                     <Rating
                         start={0}
                         stop={5}
+                        emptySymbol={
+                            <img
+                                src="/src/styles/assets/images/start-empty.png"
+                                className="card__rating__startIcon"
+                            />
+                        }
+                        fullSymbol={
+                            <img
+                                src="/src/styles/assets/images/start-full.png"
+                                className="card__rating__startIcon"
+                            />
+                        }
                         onChange={(rate) => alert(`Rating: ${rate}`)}
                     />
                 </div>

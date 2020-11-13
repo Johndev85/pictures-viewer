@@ -4,7 +4,7 @@
 
 **API Deploy:**
 
-###
+### [https://pictures-viewer.herokuapp.com/](https://pictures-viewer.herokuapp.com/)
 
 ---
 
@@ -48,14 +48,15 @@ npm run start
 
 ## Api - Descripcion
 
-    -API public  The Lorem Ipsum for photos.
-    [https://picsum.photos/](https://picsum.photos/)
+-API public The Lorem Ipsum for photos.
+
+-   [https://picsum.photos/](https://picsum.photos/)
 
 ---
 
 ## 🛠 Deployment
 
--   Deploy: Vercel
+-   Deploy: Heroku
 
 ---
 
@@ -74,6 +75,8 @@ npm run start
 ## 💻 Technologies:
 
 -   HTML5
+-   CSS3
+-   JavaScript
 -   SASS
 -   React.js
 -   Webpack
