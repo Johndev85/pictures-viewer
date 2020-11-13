@@ -1,1 +1,1 @@
-web: webpack --config webpack.config.js
+web: webpack ./src/index.jsx
