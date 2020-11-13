@@ -4,7 +4,6 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "webpack serve --open firefox",
         "dev": "webpack serve --config webpack.config.js --mode development --open firefox",
         "build": "webpack --mode production"
     },
