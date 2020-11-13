@@ -1,1 +1,0 @@
-web: webpack ./src/index.jsx
