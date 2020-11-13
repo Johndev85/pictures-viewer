@@ -32,13 +32,13 @@ const ImageCard = () => {
                         stop={5}
                         emptySymbol={
                             <img
-                                src="/src/styles/assets/images/start-empty.png"
+                                src="./src/styles/assets/images/start-empty.png"
                                 className="card__rating__startIcon"
                             />
                         }
                         fullSymbol={
                             <img
-                                src="/src/styles/assets/images/start-full.png"
+                                src="./src/styles/assets/images/start-full.png"
                                 className="card__rating__startIcon"
                             />
                         }
