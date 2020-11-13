@@ -3,7 +3,7 @@ import React from "react"
 const RandomButton = () => {
     function handleClick(e) {
         e.preventDefault()
-        window.location.reload()
+        window.location.reload(false)
     }
 
     return (
