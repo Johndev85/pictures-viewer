@@ -1,5 +1,5 @@
 {
-    "name": "comic-view",
+    "name": "pictures-viewer",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -12,7 +12,6 @@
     "license": "MIT",
     "dependencies": {
         "@babel/runtime": "7.12.5",
-        "mtgsdk": "0.4.3",
         "react": "17.0.1",
         "react-dom": "17.0.1"
     },

@@ -5,7 +5,12 @@ const ImageCard = () => {
     const [items, isLoaded, error] = useImages()
 
     if (error) {
-        return <div>Error: {error.message}</div>
+        console.log(error.message)
+        return (
+            <div>
+                Error: <span>!!Upss there is no image to show</span>
+            </div>
+        )
     } else if (!isLoaded) {
         return <div>Loading...</div>
     } else {

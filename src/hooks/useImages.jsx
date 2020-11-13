@@ -6,7 +6,11 @@ function useImages() {
     const [items, setItems] = useState({})
 
     useEffect(() => {
-        fetch("https://picsum.photos/id/984/info")
+        function getRandom() {
+            return Math.floor(Math.random() * (1000 - 0)) + 0
+        }
+
+        fetch(`https://picsum.photos/id/${getRandom()}/info`)
             .then((res) => res.json())
             .then(
                 (result) => {
